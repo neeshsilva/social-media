@@ -1,0 +1,39 @@
+.wrapper {
+  /*margin-top: 10%;*/
+  /*margin-left: 10%;*/
+  display: flex;
+}
+
+.facebook {
+  /*margin-left: 5%;*/
+  /*margin-right: 5%;*/
+  width: 5%;
+}
+
+.twitter {
+  /*background-color: #5bc0de;*/
+  /*margin-left: 5%;*/
+  /*margin-right: 5%;*/
+  width: 5%;
+}
+
+.telegram {
+ /*background-color: #2e87ca;*/
+  /*margin-left: 5%;*/
+  /*margin-right: 5%;*/
+  width: 5%;
+}
+
+.whatsapp {
+  padding-top: 0.5%;
+  background-color: #25D367;
+    /*margin-left: 5%;*/
+  /*margin-right: 5%;*/
+  width: 5%;
+}
+
+.copyurl {
+  /*margin-left: 5%;*/
+  /*margin-right: 5%;*/
+  width: 5%;
+}
