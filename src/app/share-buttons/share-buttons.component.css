@@ -8,20 +8,24 @@
 }
 
 .facebook {
+  background-color: #3B579D;
+  border: 1px white;
   /*margin-left: 5%;*/
   /*margin-right: 5%;*/
   width: 5%;
 }
 
 .twitter {
-  /*background-color: #5bc0de;*/
+  background-color: #1DA1F2;
+  border: 1px white;
   /*margin-left: 5%;*/
   /*margin-right: 5%;*/
   width: 5%;
 }
 
 .telegram {
- /*background-color: #2e87ca;*/
+ background-color: #27A6E6;
+  border: 1px white;
   /*margin-left: 5%;*/
   /*margin-right: 5%;*/
   width: 5%;
@@ -29,13 +33,16 @@
 
 .whatsapp {
   padding-top: 0.5%;
-  background-color: #25D367;
+  background-color: #25D366;
+  border: 1px white;
     /*margin-left: 5%;*/
   /*margin-right: 5%;*/
   width: 5%;
 }
 
 .copyurl {
+  background-color: #EB7D16;
+  border: 1px white;
   /*margin-left: 5%;*/
   /*margin-right: 5%;*/
   width: 5%;
