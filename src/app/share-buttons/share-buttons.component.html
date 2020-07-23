@@ -1,4 +1,4 @@
-<div class="wrapper" [style.margin-top.%]="10" [style.margin-left.%]="10">
+<div class="wrapper" [style.margin-top.px]="getTopOffset()" [style.margin-left.px]="getLeftOffset()">
   <a class="facebook" [href]="getFacebookUrl()" target="_blank">
     <img src="assets/facebook.png" width="100%"/>
   </a>
@@ -6,7 +6,7 @@
     <img src="assets/Twitter.png" width="100%"/>
   </a>
   <a class="telegram" [href]="getTelegramUrl()" target="_blank">
-    <img src="assets/telegram.png" width="100%"/>
+    <img src="assets/telegram1.png" width="75%"/>
   </a>
   <a class="whatsapp" [href]="getWhatsappUrl()" target="_blank">
     <img src="assets/WhatsApp_Logo_2.png" width="100%"/>

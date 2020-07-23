@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
 import {DeviceDetectorService} from 'ngx-device-detector';
+import config from './share-button.config';
 
 @Component({
   selector: 'app-share-buttons',
@@ -11,17 +12,27 @@ export class ShareButtonsComponent implements OnInit {
 
   url = 'http://www.google.com/';
   pageName = '';
+  topPosition: number = config.topOffset;
+  leftPosition: number = config.leftOffset;
 
   constructor(private router: Router, private deviceService: DeviceDetectorService) {
   }
 
   ngOnInit(): void {
-    // this.url = 'https://www.youtube.com/watch?v=5kAQUNFZJXY';
+    // this.url = 'http://info.cern.ch/';
     this.url = window.location.href;
     this.pageName = this.router.url;
     // this.copyUrl.value = this.pageUrl;
     console.log('PAGE URL ', this.router.url);
     console.log('PAGE URL2 ', window.location.href);
+  }
+
+  getTopOffset() {
+    return this.topPosition;
+  }
+
+  getLeftOffset() {
+    return this.leftPosition;
   }
 
   getFacebookUrl() {
