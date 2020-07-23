@@ -23,8 +23,12 @@
   width: 5%;
 }
 
+.telegramImage{
+  padding: 13%;
+}
+
 .telegram {
- background-color: #27A6E6;
+  background-color: #27A6E6;
   border: 1px white;
   /*margin-left: 5%;*/
   /*margin-right: 5%;*/
@@ -35,7 +39,7 @@
   padding-top: 0.5%;
   background-color: #25D366;
   border: 1px white;
-    /*margin-left: 5%;*/
+  /*margin-left: 5%;*/
   /*margin-right: 5%;*/
   width: 5%;
 }
