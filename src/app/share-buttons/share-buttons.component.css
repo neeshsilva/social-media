@@ -1,4 +1,7 @@
 .wrapper {
+  position: fixed;
+  /*margin-top: 10px;*/
+  /*margin-left: 10px;*/
   /*margin-top: 10%;*/
   /*margin-left: 10%;*/
   display: flex;
