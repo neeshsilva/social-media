@@ -1,38 +1,38 @@
 .wrapper {
   position: fixed;
   display: flex;
+  width :  80%;
+  max-width: 250px;
 }
 
-.facebook {
+.wrapper a {
   cursor: pointer;
+  border: 1px white;
+  width: 20%;
+}
+
+.wrapper .facebook {
   background-color: white;
-  border: 1px white;
-  width: 5%;
 }
 
-.twitter {
-  cursor: pointer;
+.wrapper  .twitter {
   background-color: white;
-  border: 1px white;
-  width: 5%;
 }
 
-.telegram {
-  cursor: pointer;
+.wrapper .telegram {
   background-color: white;
-  border: 1px white;
-  width: 5%;
 }
 
-.whatsapp {
-  cursor: pointer;
+.wrapper .whatsapp {
   background-color: white;
-  border: 1px white;
-  width: 5%;
 }
 
-.copyurl {
+.wrapper .copyurl {
   cursor: pointer;
-  border: 1px white;
-  width: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    width: 90%;
+  }
 }
