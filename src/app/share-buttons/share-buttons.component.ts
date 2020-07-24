@@ -19,10 +19,8 @@ export class ShareButtonsComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    // this.url = 'http://info.cern.ch/';
     this.url = window.location.href;
     this.pageName = this.router.url;
-    // this.copyUrl.value = this.pageUrl;
     console.log('PAGE URL ', this.router.url);
     console.log('PAGE URL2 ', window.location.href);
   }

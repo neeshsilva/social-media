@@ -1,53 +1,38 @@
 .wrapper {
   position: fixed;
-  /*margin-top: 10px;*/
-  /*margin-left: 10px;*/
-  /*margin-top: 10%;*/
-  /*margin-left: 10%;*/
   display: flex;
 }
 
 .facebook {
-  background-color: #3B579D;
+  cursor: pointer;
+  background-color: white;
   border: 1px white;
-  /*margin-left: 5%;*/
-  /*margin-right: 5%;*/
   width: 5%;
 }
 
 .twitter {
-  background-color: #1DA1F2;
+  cursor: pointer;
+  background-color: white;
   border: 1px white;
-  /*margin-left: 5%;*/
-  /*margin-right: 5%;*/
   width: 5%;
 }
 
-.telegramImage{
-  padding: 13%;
-}
-
 .telegram {
-  background-color: #27A6E6;
+  cursor: pointer;
+  background-color: white;
   border: 1px white;
-  /*margin-left: 5%;*/
-  /*margin-right: 5%;*/
   width: 5%;
 }
 
 .whatsapp {
-  padding-top: 0.5%;
-  background-color: #25D366;
+  cursor: pointer;
+  background-color: white;
   border: 1px white;
-  /*margin-left: 5%;*/
-  /*margin-right: 5%;*/
   width: 5%;
 }
 
 .copyurl {
-  background-color: #EB7D16;
+  cursor: pointer;
   border: 1px white;
-  /*margin-left: 5%;*/
-  /*margin-right: 5%;*/
   width: 5%;
 }
